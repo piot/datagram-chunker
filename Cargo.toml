@@ -1,0 +1,11 @@
+[package]
+name = "datagram-chunker"
+version = "0.0.1"
+edition = "2021"
+license = "MIT"
+description = "Serialize and deserialize messages in datagrams"
+repository = "https://github.com/piot/datagram-chunker"
+
+[dependencies]
+flood-rs = "0.0.12"
+err-rs = "0.0.4"
